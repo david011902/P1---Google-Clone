@@ -163,8 +163,8 @@ footer {
     margin-bottom: 15px;
     width: 100%;
     display: flex;
-    justify-content: flex-start; /* Alinea 'Mexico' a la izquierda */
-    padding-left: 20px; /* Asegura que 'Mexico' esté un poco alejado del borde */
+    justify-content: flex-start; /* Alinea 'México' a la izquierda */
+    padding-left: 20px; /* Asegura que 'México' esté un poco alejado del borde */
 }
 
 .footer-ubication a {
@@ -179,21 +179,21 @@ footer {
 .footer-links {
     display: flex;
     justify-content: space-between;
-    width: 100%; /* Ancho completo para evitar separación */
-    padding-left: 20px; /* Asegura que todos los enlaces estén alineados al borde izquierdo */
+    width: 100%; /* Se le da el 100% para evitar la separación */
+    padding-left: 20px; /* Es el relleno de la izquierda*/
 }
 
 .footer-links-left {
     justify-content: flex-start; /* Alinea estos enlaces a la izquierda */
-    margin-right: auto; /* Asegura que el espacio restante se quede a la derecha */
+    margin-right: auto; /* Brinda el espacio que sobra hacia la derecha */
 }
 
 .footer-links-right {
-    justify-content: flex-end; /* Alinea estos enlaces a la derecha */
+    justify-content: flex-end; /* Alinea los enlaces*/
 }
 
 .footer-links a {
-    text-decoration: none;
+    text-decoration: none;/*Elimina la decoración del texto*/
     color: #5f6368;
     margin-right: 20px;
     margin-bottom: 10px;
